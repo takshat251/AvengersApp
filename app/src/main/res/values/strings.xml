@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Avengers App</string>
+    <string name="new_app_name">Infinity War</string>
+    <string name="t2_create_account">No Account Exist! Create Account</string>
+    <string name="t1_forgot_password">Forgot Password?</string>
+    <string name="btn1_log_in">LOG IN</string>
+    <string name="et2_enter_pass">Password</string>
+    <string name="et1_enter_user">Mobile Number</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="t1_color">#000000</color>
+    <color name="t2_create_account">#446677</color>
+    <color name="t1_forgot_pass">#336699</color>
+    <color name="btn1_white">#ffffff</color>
+    <color name="btn1_orange">#ff2200</color>
+    <color name="t2_grey">#225566</color>
+</resources>

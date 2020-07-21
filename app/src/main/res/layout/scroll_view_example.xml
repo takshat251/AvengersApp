@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:avengers="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    avengers:layout_width="match_parent"
+    avengers:layout_height="match_parent"
+    tools:context=".AvengersActivity">
+    <LinearLayout
+        avengers:layout_width="match_parent"
+        avengers:layout_height="match_parent"
+        avengers:orientation="vertical">
+        <RelativeLayout
+            avengers:layout_width="match_parent"
+            avengers:layout_height="match_parent">
+            <ImageView
+                avengers:id="@+id/img1_tony_stark"
+                avengers:layout_width="120dp"
+                avengers:layout_height="120dp"
+                avengers:layout_margin="30dp"
+                avengers:src="@drawable/tony_stark_new"/>
+            <TextView
+                avengers:id="@+id/t1_tony_stark_name"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="30dp"
+                avengers:layout_toRightOf="@+id/img1_tony_stark"
+                avengers:text="Tony Stark"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+            <TextView
+                avengers:id="@+id/t2_tony_stark_email"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_tony_stark"
+                avengers:layout_below="@+id/t1_tony_stark_name"
+                avengers:text="tony@starkindustries.com"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+            <TextView
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_tony_stark"
+                avengers:layout_below="@+id/t2_tony_stark_email"
+                avengers:text="+91 11155555"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            avengers:layout_width="match_parent"
+            avengers:layout_height="match_parent"
+            avengers:background="@color/colorAccent">
+
+            <ImageView
+                avengers:id="@+id/img1_black_panther"
+                avengers:layout_width="120dp"
+                avengers:layout_height="120dp"
+                avengers:layout_margin="30dp"
+                avengers:src="@drawable/black_panther" />
+
+            <TextView
+                avengers:id="@+id/t1_black_panther_name"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="30dp"
+                avengers:layout_toRightOf="@+id/img1_black_panther"
+                avengers:text="Black_Panther"
+                avengers:textColor="@color/t1_color"
+                avengers:textSize="15sp"
+                avengers:textStyle="bold" />
+
+            <TextView
+                avengers:id="@+id/t2_black_panther_email"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_below="@+id/t1_black_panther_name"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_black_panther"
+                avengers:text="panther@starkindustries.com"
+                avengers:textColor="@color/t1_color"
+                avengers:textSize="15sp"
+                avengers:textStyle="bold" />
+
+            <TextView
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_below="@+id/t2_black_panther_email"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_black_panther"
+                avengers:text="+91 22255555"
+                avengers:textColor="@color/t1_color"
+                avengers:textSize="15sp"
+                avengers:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            avengers:layout_width="match_parent"
+            avengers:layout_height="match_parent"
+            >
+            <ImageView
+                avengers:id="@+id/img1_captain_america"
+                avengers:layout_width="120dp"
+                avengers:layout_height="120dp"
+                avengers:layout_margin="30dp"
+                avengers:src="@drawable/captain_america"/>
+            <TextView
+                avengers:id="@+id/t1_captain_america_name"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="30dp"
+                avengers:layout_toRightOf="@+id/img1_captain_america"
+                avengers:text="Captain America"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:id="@+id/t2_captain_america_email"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_captain_america"
+                avengers:layout_below="@+id/t1_captain_america_name"
+                avengers:text="captain@starkindustries.com"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_captain_america"
+                avengers:layout_below="@+id/t2_captain_america_email"
+                avengers:text="+91 33355555"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            avengers:layout_width="match_parent"
+            avengers:layout_height="match_parent"
+            avengers:background="@color/colorAccent">
+            <ImageView
+                avengers:id="@+id/img1_thor"
+                avengers:layout_width="120dp"
+                avengers:layout_height="120dp"
+                avengers:layout_margin="30dp"
+                avengers:src="@drawable/thor"/>
+            <TextView
+                avengers:id="@+id/t1_thor_name"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="30dp"
+                avengers:layout_toRightOf="@+id/img1_thor"
+                avengers:text="Thor"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:id="@+id/t2_thor_email"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_thor"
+                avengers:layout_below="@+id/t1_thor_name"
+                avengers:text="thor@starkindustries.com"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_thor"
+                avengers:layout_below="@+id/t2_thor_email"
+                avengers:text="+91 44455555"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            avengers:layout_width="match_parent"
+            avengers:layout_height="match_parent"
+            >
+            <ImageView
+                avengers:id="@+id/img1_widow"
+                avengers:layout_width="120dp"
+                avengers:layout_height="120dp"
+                avengers:layout_margin="30dp"
+                avengers:src="@drawable/widow"/>
+            <TextView
+                avengers:id="@+id/t1_widow_name"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="30dp"
+                avengers:layout_toRightOf="@+id/img1_widow"
+                avengers:text="Widow"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:id="@+id/t2_widow_email"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_widow"
+                avengers:layout_below="@+id/t1_widow_name"
+                avengers:text="widow@starkindustries.com"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_widow"
+                avengers:layout_below="@+id/t2_widow_email"
+                avengers:text="+91 55555555"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            avengers:layout_width="match_parent"
+            avengers:layout_height="match_parent"
+            avengers:background="@color/colorAccent">
+            <ImageView
+                avengers:id="@+id/img1_hulk"
+                avengers:layout_width="120dp"
+                avengers:layout_height="120dp"
+                avengers:layout_margin="30dp"
+                avengers:src="@drawable/hulk"/>
+            <TextView
+                avengers:id="@+id/t1_hulk_name"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="30dp"
+                avengers:layout_toRightOf="@+id/img1_hulk"
+                avengers:text="Hulk"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:id="@+id/t2_hulk_email"
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_hulk"
+                avengers:layout_below="@+id/t1_hulk_name"
+                avengers:text="hulk@starkindustries.com"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+
+            <TextView
+                avengers:layout_width="wrap_content"
+                avengers:layout_height="wrap_content"
+                avengers:layout_marginTop="5dp"
+                avengers:layout_toRightOf="@+id/img1_hulk"
+                avengers:layout_below="@+id/t2_hulk_email"
+                avengers:text="+91 66655555"
+                avengers:textColor="@color/t1_color"
+                avengers:textStyle="bold"
+                avengers:textSize="15sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
