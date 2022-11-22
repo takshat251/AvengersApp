@@ -39,8 +39,8 @@ resource "aws_s3_bucket_object" "object" {
 
   acl    = "private"  # or can be "public-read"
 
-  source = "src/app.txt"
+  source = "app/src/main/java/com/example/myavengersapp/AvengersActivity.kt"
 
-  etag = filemd5("src/app.txt")
+  etag = filemd5("app/src/main/java/com/example/myavengersapp/AvengersActivity.kt")
 
 }
