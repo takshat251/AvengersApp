@@ -1,11 +1,11 @@
 # S3 Bucket
 #
 ##########################################################################################
-# Module maintainer: CarBuff                                #
-# Contact: carbuff@coxautoinc.com                                             #
+# Module maintainer:                               #
+# Contact:                                              #
 #                                                                                        #
-# Description: S3 Bucket Provider                                            #
-# README: https://ghe.coxautoinc.com/master/README.md     #
+# Description:                                       #
+# README:   #
 # ___________________                                                                    #
 #                                                                                        #
 #  Copyright 2022 Cox Automotive Incorporated                                            #
