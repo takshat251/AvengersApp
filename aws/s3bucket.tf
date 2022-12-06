@@ -8,7 +8,7 @@
 # README:   #
 # ___________________                                                                    #
 #                                                                                        #
-#  Copyright 2022 Cox Automotive Incorporated                                            #
+#  Copyright                                    #
 #  All Rights Reserved.                                                                  #
 #                                                                                        #
 ##########################################################################################
